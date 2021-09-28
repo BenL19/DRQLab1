@@ -14,6 +14,7 @@ class Vehicle
 }
 
 //Class that inherits from vehicle, extends to add value for doors
+//The super keyword is accessing the make, model and year values from the parent to the child
 class Cars extends Vehicle {
     constructor(make, model, year, doors){
         super(make, model, year)
